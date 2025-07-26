@@ -107,7 +107,7 @@ jobs:
     needs: tests
     steps:
       - name: Check out the repo
-        # Получение иходного кода из репозитория
+        # Получение иходного кода из репозитори
         uses: actions/checkout@v3
       - name: Set up Docker Buildx
         # Установка сборщика контейнеров Docker
