@@ -156,7 +156,7 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          # Тут вместо username должен быть ваш логин на Docker Hub
+          # Тут вместо username должен быь ваш логин на Docker Hub
           tags: cool2050/taski_gateway:latest
 
 
