@@ -11,7 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'svarlii.zapto.org').split(',')
 
 
-# Application definition
+# Application definitio
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
